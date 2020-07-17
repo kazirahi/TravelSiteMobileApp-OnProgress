@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148527198650",
+    "firebase_url": "https://aahan-intrenational-school.firebaseio.com",
+    "project_id": "aahan-intrenational-school",
+    "storage_bucket": "aahan-intrenational-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148527198650:android:76cb391e183ac0d403ed83",
+        "android_client_info": {
+          "package_name": "com.example.aahanintrenationalschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148527198650-lalib2vrnl6gtntedie7k9ufnctierdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aahanintrenationalschool",
+            "certificate_hash": "1adf4070c3ed07a0f2e60e8c08a0b09cddecbeb1"
+          }
+        },
+        {
+          "client_id": "148527198650-26u2mf1keicp72ah0kc4tj714rjuel4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBceq7GDjxruYwS3da8fZLzYPJcfz2Ry-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148527198650-26u2mf1keicp72ah0kc4tj714rjuel4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

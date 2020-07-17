@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101820"
+    tools:context=".UpdateDelete">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="04dp"
+
+        android:orientation="vertical"/>
+    <LinearLayout
+        android:id="@+id/si"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="04dp"
+
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+
+                android:background="#C7D3D4"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center">
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editFirstName9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Enter Your First Name"
+                            android:textColor="#000"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editLastName9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Enter Your Last Name"
+                            android:textColor="#000"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editDesignation9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Designation (e.g: Student)"
+                            android:textColor="#000"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editEmail9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Enter Your Email"
+                            android:textColor="#000"
+                            android:inputType="textEmailAddress" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editPassword9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Password"
+                            android:inputType="textPassword" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editCountry9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Country"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+
+                        <EditText
+                            android:id="@+id/editReligion9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Religion"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/editMobileNumber9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="Mobile Number With Country Code"
+                            android:inputType="phone" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="#d6d6f5"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/editDOB9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="DD/MM/YYYY"
+                            android:ems="10"
+                            android:inputType="date" />
+                    </LinearLayout>
+
+
+
+                    <Button
+                        android:id="@+id/btnSignup9"
+                        android:layout_width="320dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#3399ff"
+                        android:text="Update"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+
+                        >
+
+                    </Button>
+
+
+                    <TextView
+                        android:id="@+id/waringID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="center"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:text="You are already member?SignIn here!"
+                        android:textStyle="bold|italic">
+
+                    </TextView>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
